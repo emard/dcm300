@@ -39,7 +39,7 @@ main.o: main.c $(project).h $(parser).h Makefile
 	gcc -c $(CFLAGS) main.c -o $@
 
 $(project): $(OBJECTS) Makefile
-	gcc $(CFLAGS) $(CLIBS) $(OBJECTS) -o $@
+	gcc $(CFLAGS) $(OBJECTS) $(CLIBS) -o $@
 
 $(debianproject): $(project)
 	strip $< -o $@
