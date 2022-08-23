@@ -1,0 +1,94 @@
+
+memo at Mon Feb 20 00:41:17 2006: change Role (before)
+0>1: \x01\x0d\x02\x00\xc4\x15@\x00\x05\x04\x00\x00\xfc\xff\xff\x03\x01\x00
+memo at Mon Feb 20 00:42:39 2006: change Role (after) Slave [x] discoverable [ ] remote bt address
+memo at Mon Feb 20 00:43:09 2006: change role (before) not discovrable, no bt address
+0>1: \x01\x0d\x00\x00\xc4\x15@\x00\x05\x04\x00\x00\xfc\xff\xff\x03\x01\x00
+memo at Mon Feb 20 00:43:42 2006: change role (after) [ ] discoverable [ ] bt address set (slave)
+memo at Mon Feb 20 00:45:07 2006: change role (before): slave discoverable remote bt address set: 000272474e28
+0>1: \x01\x0d\x06000272474e28\x03\x01\x00
+memo at Mon Feb 20 00:45:32 2006: change role (after)
+memo at Mon Feb 20 00:46:35 2006: change role (before): master, no remote bt address
+memo at Mon Feb 20 00:47:08 2006: change role (before) master, bt address 000272474e28
+0>1: \x01\x0d\x01000272474e28\x03\x01\x00
+memo at Mon Feb 20 00:47:43 2006: change role (after) master
+memo at Mon Feb 20 00:48:09 2006: change role (before) slave [x] discoverable [ ] remote bt address
+0>1: \x01\x0d\x02\x00\xc4\x15@\x00\x05\x04\x00\x00\xfc\xff\xff\x03\x01\x00
+memo at Mon Feb 20 00:48:28 2006: change role (after): slave discoverable
+memo at Mon Feb 20 00:48:51 2006: security (before)
+0>1: \x05\x00\x05\x0e\x01\x046502\x00\x00\x00\x00\x00\x00\x00\x00
+memo at Mon Feb 20 00:49:12 2006: security (after) pin is 6502
+memo at Mon Feb 20 00:49:44 2006: change security (before) pin: 65021
+0>1: \x04\x0e\x01\x0565021\x00\x00\x00\x00\x00\x00\x00\x06\x01\x00
+memo at Mon Feb 20 00:50:14 2006: change security (after) pin set to 65021
+memo at Mon Feb 20 00:51:36 2006: change security (before): [ ] secure connection
+0>1: \x04\x0e\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x06\x01\x00
+memo at Mon Feb 20 00:51:55 2006: change security (after) [ ] secure connection
+memo at Mon Feb 20 00:52:12 2006: change security (before): pin: 6502
+0>1: \x04\x0e\x01\x046502\x00\x00\x00\x00\x00\x00\x00\x00\x06\x01\x00
+memo at Mon Feb 20 00:52:36 2006: change security (after) pin 6502
+memo at Mon Feb 20 00:52:51 2006: Uart configure (before)
+0>1: \x0b\x00\x0b\x03\x01\x00\x00
+memo at Mon Feb 20 00:53:00 2006: uart configure (after)
+memo at Mon Feb 20 00:53:36 2006: uart was 9600N1
+memo at Mon Feb 20 00:54:10 2006: change uart (before) 19200N1
+0>1: \x0a\x03\x02\x00\x00\x0c\x01\x00
+memo at Mon Feb 20 00:54:30 2006: change uart (after) 19200N1
+memo at Mon Feb 20 00:55:42 2006: change uart (before) 38400N1
+0>1: \x0a\x03\x03\x00\x00\x0c\x01\x00
+memo at Mon Feb 20 00:55:59 2006: change uart (after) 38400N1
+memo at Mon Feb 20 00:56:45 2006: change uart (before) 57600N1
+0>1: \x0a\x03\x04\x00\x00\x0c\x01\x00
+memo at Mon Feb 20 00:57:07 2006: change uart (after) 57600N1
+memo at Mon Feb 20 00:57:30 2006: change uart (before) 115200N1
+0>1: \x0a\x03\x05\x00\x00\x0c\x01\x00
+memo at Mon Feb 20 00:57:46 2006: change uart (after) 115200N1
+memo at Mon Feb 20 00:58:07 2006: change uart (before) 230400N1
+0>1: \x0a\x03\x06\x00\x00\x0c\x01\x00
+memo at Mon Feb 20 00:58:22 2006: change uart (after) 230400N1
+memo at Mon Feb 20 00:58:44 2006: change uart (before) 460800N1
+0>1: \x0a\x03\x07\x00\x00\x0c\x01\x00
+memo at Mon Feb 20 00:59:13 2006: change uart (after) 460800N1
+memo at Mon Feb 20 00:59:33 2006: change uart (before) 921600N1
+0>1: \x0a\x03\x08\x00\x00\x0c\x01\x00
+memo at Mon Feb 20 01:00:05 2006: change uart (after) 921600N1
+memo at Mon Feb 20 01:00:37 2006: change uart (before) 1382400N1
+0>1: \x0a\x03\x09\x00\x00\x0c\x01\x00
+memo at Mon Feb 20 01:00:57 2006: change uart (after) 1382400
+memo at Mon Feb 20 01:01:23 2006: change uart (before) 9600N2
+0>1: \x0a\x03\x01\x01\x00\x0c\x01\x00
+memo at Mon Feb 20 01:01:44 2006: change uart (after) 9600N2
+memo at Mon Feb 20 01:02:34 2006: change uart (before) 9600O1
+0>1: \x0a\x03\x01\x00\x01\x0c\x01\x00
+memo at Mon Feb 20 01:02:48 2006: change uart (after) 9600O1
+memo at Mon Feb 20 01:04:10 2006: change uart (before) 9600E1
+0>1: \x0a\x03\x01\x00\x02\x0c\x01\x00
+memo at Mon Feb 20 01:04:25 2006: change uart (after) 9600E1
+memo at Mon Feb 20 01:04:56 2006: change uart (before) 9600E2
+0>1: \x0a\x03\x01\x01\x02\x0c\x01\x00
+memo at Mon Feb 20 01:05:16 2006: change uart (after) 9600E2
+memo at Mon Feb 20 01:05:52 2006: change uart (before) 9600O2
+0>1: \x0a\x03\x01\x01\x01\x0c\x01\x00
+memo at Mon Feb 20 01:06:04 2006: change uart (after) 9600O2
+memo at Mon Feb 20 01:06:20 2006: change uart (before) 9600N1
+0>1: \x0a\x03\x01\x00\x00\x0c\x01\x00
+memo at Mon Feb 20 01:06:33 2006: change uart (after) 9600N1
+memo at Mon Feb 20 01:06:45 2006: Local device name (before)
+0>1: \x08\x00\x08\x1fds1820\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+memo at Mon Feb 20 01:07:02 2006: local device name (after), result was ds1820
+memo at Mon Feb 20 01:07:31 2006: change local device name (before) Mitutoyo
+0>1: \x07\x1fMitutoyo\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x09\x01\x00
+memo at Mon Feb 20 01:08:31 2006: change device name (after) Mitutoyo
+memo at Mon Feb 20 01:09:03 2006: change device name (before): Serial Adapter
+0>1: \x07\x1fSerial Adapter\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+memo at Mon Feb 20 01:09:26 2006: change device name (after) Serial Adapter
+memo at Mon Feb 20 01:09:54 2006: change device name (before): ds182x
+0>1: \x07\x1fds182x\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+memo at Mon Feb 20 01:10:12 2006: change device name (after) ds182x
+memo at Mon Feb 20 01:10:37 2006: role (before)
+0>1: \x02\x00
+memo at Mon Feb 20 01:11:03 2006: role (after): slave non-discoverable
+0>1: \x01\x0d\x02\x00\xc4\x15@\x00\x05\x04\x00\x00\xfc\xff\xff
+memo at Mon Feb 20 01:11:28 2006: change role (slave) discoverable
+0>1: \x05\x00\x02\x00\x05\x00\x0b\x00\x08\x00\x02\x00\x02\x0d\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x01\x00\x05\x0e\x01\x046502\x00\x00\x00\x00\x00\x00\x00\x00\x02\x0d\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x05\x0e\x01\x046502\x00\x00\x00\x00\x00\x00\x00\x00\x0b\x03\x01\x00\x00\x02\x0d\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x09\x01\x00\x08\x1fds182x\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x05\x00\x05\x0e\x01\x046502\x00\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x0b\x03\x01\x00\x00\x08\x00\x08\x1fds182x\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x0b\x03\x01\x00\x00\x05\x00\x05\x0e\x01\x046502\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\x02\x0d\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+memo at Mon Feb 20 01:13:26 2006: (after clicking all options)

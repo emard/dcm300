@@ -1,0 +1,28 @@
+[ ] read-modify-write only given options
+    1. read first
+    2. is data to be written different?
+    3. if different, write
+    4. verify by reading again, if different goto 3.
+[x] variable number of retries
+[x] read (10 retries) until two consecutive readings
+[x] notify about the bug when changing local name
+[x] command arg parser and help (use some GNU cmdarg nice lib)
+[ ] dialog character-based window shell to ease usage
+[x] command line options
+[x] ** read **
+       ----
+       send read command, expect answer with select for 5 seconds,
+       if silent, send read again. If 3 reads fail, bail out.
+
+       if read succeeds, repeat again to get the same result
+       if 5 reads don't get 2 same in succession, bail out
+
+    ** write **
+       -----
+       send write command, expect confirmation result with select
+       for 5 seconds, if silent sand again, 3 silent reads bail out
+
+       upon successful write, call read procedure to verify written.
+       try to write and verify 3 times to get correct reading otherwise
+       bail out.
+

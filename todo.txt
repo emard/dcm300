@@ -1,0 +1,3 @@
+[ ] commandline parameters (exposure, rgb gain..)
+[ ] shell script with ulimit and chrt
+[ ] hardware support (actual usb reading)

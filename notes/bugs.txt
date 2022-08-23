@@ -1,0 +1,2 @@
+AFter setting device name, the device will leave
+config mode and return to normal operation mode

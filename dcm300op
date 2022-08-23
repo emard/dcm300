@@ -1,0 +1,4 @@
+#!/bin/bash
+op dcm300 >/tmp/image.pnm 2>>/tmp/dcm300op.log
+mkdir -p /tmp/dcm300
+mv /tmp/image.pnm /tmp/dcm300/

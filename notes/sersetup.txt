@@ -1,0 +1,6 @@
+stty < /dev/ttyS0
+speed 115200 baud; line = 0;
+min = 0; time = 1;
+ignbrk -brkint -icrnl -imaxbel
+-opost -onlcr
+-isig -icanon -iexten -echo -echoe -echok noflsh -echoctl -echoke

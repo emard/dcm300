@@ -1,0 +1,22 @@
+
+memo at Sun Feb 19 23:14:40 2006: Role (before click)
+0>1: \x02\x00\x02\x0d\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+memo at Sun Feb 19 23:15:54 2006: Role (after click) Slave [x] Discoverable [ ] Remote BT Address set
+memo at Sun Feb 19 23:16:13 2006: Security (before)
+0>1: \x05\x00\x05\x0e\x01\x046502\x00\x00\x00\x00\x00\x00\x00\x00
+memo at Sun Feb 19 23:16:53 2006: Security (after) [x] Secure connection PIN: 6502
+memo at Sun Feb 19 23:17:13 2006: Uart configure (before)
+0>1: \x0b\x00\x0b\x03\x01\x00\x00
+memo at Sun Feb 19 23:18:14 2006: Uart Configure (after) Baud Rate: 9600  Stop bit: one  Party bit: None
+memo at Sun Feb 19 23:18:42 2006: Local Device Name (before)
+0>1: \x08\x00\x08\x1fds182x\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+memo at Sun Feb 19 23:19:23 2006: Local Device Name (after): Device Name: ds182x
+memo at Sun Feb 19 23:20:02 2006: Local device name (before)
+0>1: \x08\x00\x08\x1fds182x\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+memo at Sun Feb 19 23:20:19 2006: local device name (after): ds182x
+memo at Sun Feb 19 23:20:42 2006: changing local device name (before)
+0>1: \x07\x1fds1820\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x09\x01\x00
+memo at Sun Feb 19 23:21:17 2006: changing local devica name (after): ds1820
+memo at Sun Feb 19 23:22:06 2006: changing local device name (before)
+0>1: \x07\x1fds182x\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+memo at Sun Feb 19 23:22:29 2006: changing local device name (after): ds182x

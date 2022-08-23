@@ -1,0 +1,18 @@
+Package: dcm300
+Version: VERSION
+Section: base
+Priority: optional
+Architecture: i386
+Depends: libusb-0.1-4, libc6 (>= 2.3.5-13), op, util-linux (>= 2.3-15), udev
+Suggests: dcraw, sane-utils
+Maintainer: Davor Emard <davoremard@gmail.com>
+Description: Get image from ScopeTek DCM300 Camera
+ Take a snapshot with ScopeTek DCM300 Camera.
+ It can output the image to 1024x768 RGB PNG format or
+ output raw data in Bayer RGGB 2048x1536 format.
+ We recommend running it with limited CPU usage of 1 second (ulimit -t 1)
+ and with realtime priority 10 (chrt --rr 10) if possible.
+ This camera has time critical USB protocol. If the host fails 
+ to response within about 2ms timeout during the image
+ bulk transport, camera can get confused and 
+ need to be unplugged and plugged again.

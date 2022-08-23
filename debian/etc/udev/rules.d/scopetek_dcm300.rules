@@ -1,0 +1,2 @@
+# ScopeTek DCM300
+SYSFS{idVendor}=="1578", SYSFS{idProduct}=="0076", GROUP="scanner", MODE=0664

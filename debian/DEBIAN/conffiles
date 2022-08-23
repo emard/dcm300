@@ -1,0 +1,2 @@
+/etc/op/op.d/47-scopetek_dcm300.conf
+/etc/udev/rules.d/scopetek_dcm300.rules

@@ -1,0 +1,7 @@
+Device Name: Serial Adapter
+Encryption: Yes
+PIN: 1234
+Role: Slave
+Discoverable: Yes
+Peer: Any
+Rate, Parity, Stopbits: 115200,N,1

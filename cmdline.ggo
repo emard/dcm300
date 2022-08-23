@@ -1,0 +1,20 @@
+# file cmdline.ggo
+
+# Name of your program
+package "dcm300"        # don't use package if you're using automake
+# Version of your program
+version "0.1.0"         # don't use version if you're using automake
+
+purpose "Get imaga directly from ScopeTek DCM300 camera"
+
+#       long       short description                        type   default        required
+option  "device"       d "USB Bus:Device or raw image file" string                      no
+option  "output"       o "Output to file"                   string default="scope.pnm"  no
+option  "raw"          - "Output raw image (Bayer RGGB)"                                no
+option  "exposure"     e "Exposure [20-420]"                int    default="200"        no
+option  "red"          r "Red Gain [-127..+127]"            int    default="31"         no
+option  "green"        g "Green Gain [-127..+127]"          int    default="25"         no
+option  "blue"         b "Blue Gain [-127..+127]"           int    default="40"         no
+option  "autoexposure" E "Auto Exposure"                                                no
+option  "whitebalance" W "White Balance"                                                no
+option  "verbose"      v "Print extra info"                                             no
