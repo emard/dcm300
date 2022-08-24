@@ -17,3 +17,8 @@ Make a snapshot with non-default options:
 To annotate image with a simple scale bar:
 
     tools/scalebar.sh /tmp/image.pnm /tmp/image-scalebar.pnm
+
+To automate some actions with mouse and keyboard buttons/hotkeys,
+use "Input remapper"
+
+    apt install input-remapper
