@@ -14,3 +14,6 @@ Make a snapshot with non-default options:
 
     dcm300 -r 40 -g 40 -b 40 -e 200 > /tmp/image.pnm
 
+To annotate image with a simple scale bar:
+
+    tools/scalebar.sh /tmp/image.pnm /tmp/image-scalebar.pnm
