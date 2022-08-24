@@ -1,9 +1,0 @@
-use:
-
-give user the op (realtime execution priviledge with ulimit) 
-by adding username to DCM300RT list in /etc/op/op.d/47-scopetek_dcm300.conf
-DCM300RT=(user1|user2)
-
-make the snapshot:
-op dcm300 -r 40 -g 40 -b 40 -e 200 > /tmp/image.pnm
-
