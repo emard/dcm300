@@ -14,7 +14,7 @@ pnm:- \
 -background white \
 -pointsize 70 \
 -font DejaVu-Sans-Mono \
-label:'mm 0▕▄█▄█▄█▄█▄█ 5 mm' \
+label:'0▕▄█▄█▄█▄█▄█ 1' \
 -gravity center \
 -append \
 /tmp/microscope.jpg

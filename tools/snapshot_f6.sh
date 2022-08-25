@@ -2,9 +2,9 @@
 
 # co /etc/xdg/openbox/lxde-pi-rc.xml ~/.config/openbox/lxde-pi-rc.xml
 # joe /.config/openbox/lxde-pi-rc.xml
-#    <keybind key="F11">
+#    <keybind key="F7">
 #      <action name="Execute">
-#        <command>/home/davor/bin/snapshot_f12.sh</command>
+#        <command>/home/davor/bin/snapshot_f7.sh</command>
 #      </action>
 #    </keybind>
 
@@ -12,9 +12,9 @@
 | convert \
 pnm:- \
 -background white \
--pointsize 70 \
+-pointsize 72 \
 -font DejaVu-Sans-Mono \
-label:'0▕▄█▄█▄█▄█▄█ 2' \
+label:'10x 0▕▄█▄█▄█▄█▄█ 500 µm' \
 -gravity center \
 -append \
 /tmp/microscope.jpg
