@@ -3,7 +3,7 @@ CFLAGS=-Wall -g
 project=dcm300
 parser=cmdline
 version=$(shell ./version.sh)
-debrelease=1
+debrelease=2
 architecture=i386
 
 package=$(project)_$(version)-$(debrelease)_$(architecture).deb
