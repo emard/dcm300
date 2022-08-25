@@ -2,9 +2,9 @@
 
 # co /etc/xdg/openbox/lxde-pi-rc.xml ~/.config/openbox/lxde-pi-rc.xml
 # joe /.config/openbox/lxde-pi-rc.xml
-#    <keybind key="F8">
+#    <keybind key="F7">
 #      <action name="Execute">
-#        <command>/home/davor/bin/snapshot_f8.sh</command>
+#        <command>/home/davor/bin/snapshot_f7.sh</command>
 #      </action>
 #    </keybind>
 
